@@ -180,3 +180,6 @@ function create_my_post_types() {
      )
   );
 }
+
+wp_enqueue_script( 'jquery', false, false, false, false );
+wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array( 'jquery' ), false, true );
