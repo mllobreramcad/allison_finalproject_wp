@@ -513,6 +513,7 @@ body.home {
 	background-size: cover;
 }
 
+body.page-child,
 body.single-post-workout_food {
 	background: url('http://finalproject.aekirchner.com/wp-content/uploads/2013/04/DumbbellsKitchen_interior-bkgrd.jpg') no-repeat top center;
 	-mox-background-size: cover;
@@ -670,6 +671,7 @@ body.home #primary {
 	top:200px;
 }
 
+body.page-child #primary,
 body.single-post-workout_food #primary {
 	background-color:black;
 	margin-left:30em;
